@@ -18,9 +18,8 @@ body {
     background-color: #2E2F34;
 }
 
-header, section {
+header, section, footer {
     width: 100%;
-    min-height: 200px;
 }
 
 section { padding: 30px; }
@@ -121,6 +120,83 @@ header nav ul li a {
 
 #technologies .cards .card img {
     width: 100px;
+}
+
+footer .texts {
+    width: 100%;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .texts p {
+    color: #ba9527;
+    letter-spacing: 0.1rem;
+    font-size: 17px;
+}
+
+footer .texts h1 {
+    font-weight: 450;
+}
+
+footer .cards {
+    width: 100%;
+    height: 200px;
+
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .cards .line {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .cards .line .card {
+    width: 260px;
+    padding: 15px 20px;
+
+    background-color: #2E2F34;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+    gap: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer .cards .line .card:hover {
+    box-shadow: 0 0 10px 0px #f5be19;
+    transform: translateY(-5px);
+}
+
+footer .cards .line .card ion-icon {
+    font-size: 20px;
+}
+
+footer .cards .line .card p {
+    color: #ba9527;
+}
+
+footer .copy {
+    width: 100%;
+    padding: 20px;
+
+    border-top: 2px solid #ba9527;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .secondColor { background-color: #34353A; }
